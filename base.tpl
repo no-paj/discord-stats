@@ -7,13 +7,13 @@
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <!-- tablesorter plugin -->
-        <script src="jquery.tablesorter.js"></script>
+        <script src="static/jquery.tablesorter.js"></script>
         <!-- tablesorter widget file - loaded after the plugin -->
-        <script src="jquery.tablesorter.widgets.js"></script>
+        <script src="static/jquery.tablesorter.widgets.js"></script>
 
         <!-- pager plugin -->
-        <link rel="stylesheet" href="jquery.tablesorter.pager.css">
-        <script src="jquery.tablesorter.pager.js"></script>
+        <link rel="stylesheet" href="static/jquery.tablesorter.pager.css">
+        <script src="static/jquery.tablesorter.pager.js"></script>
     </head>
 
     <body>
