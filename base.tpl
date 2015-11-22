@@ -4,16 +4,15 @@
         <title>
             {{title or 'Discord Stats !'}}
         </title>
-        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <!-- tablesorter plugin -->
-        <script src="static/jquery.tablesorter.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/js/jquery.tablesorter.js"></script>
         <!-- tablesorter widget file - loaded after the plugin -->
-        <script src="static/jquery.tablesorter.widgets.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/js/jquery.tablesorter.widgets.js"></script>
 
         <!-- pager plugin -->
-        <link rel="stylesheet" href="static/jquery.tablesorter.pager.css">
-        <script src="static/jquery.tablesorter.pager.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/css/jquery.tablesorter.pager.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/js/extras/jquery.tablesorter.pager.min.js"></script>
     </head>
 
     <body>
