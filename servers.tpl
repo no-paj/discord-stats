@@ -11,7 +11,14 @@
         </tr>
         %for server in servers:
         <tr>
-            <td><img style="width:100px;" src="https://cdn.discordapp.com/icons/{{server['id']}}/{{server['icon']}}.jpg"/></td>
+            <td><img style="width:50px;" src="
+            % if server['icon']:
+            https://cdn.discordapp.com/icons/{{server['id']}}/{{server['icon']}}.jpg
+            %end
+            % if no server['icon']:
+            http://placehold.it/50x50
+            %end
+            "/></td>
             <td>{{server['name']}}</td>
             <td>{{server['region']}}</td>
             <td>{{server['owner_name']}}</td>
