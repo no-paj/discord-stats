@@ -15,7 +15,7 @@
             % if server['icon']:
             https://cdn.discordapp.com/icons/{{server['id']}}/{{server['icon']}}.jpg
             %end
-            % if no server['icon']:
+            % if server['icon']==None:
             http://placehold.it/50x50
             %end
             "/></td>
