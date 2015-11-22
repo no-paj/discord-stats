@@ -13,6 +13,19 @@
         <!-- pager plugin -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/css/jquery.tablesorter.pager.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.24.5/js/extras/jquery.tablesorter.pager.min.js"></script>
+        <script type="text/css">
+            /* rows hidden by filtering (needed for child rows) */
+            .tablesorter .filtered {
+                display: none;
+            }
+
+            /* ajax error row */
+            .tablesorter .tablesorter-errorRow td {
+                text-align: center;
+                cursor: pointer;
+                background-color: #e6bf99;
+            }
+        </script>
     </head>
 
     <body>
