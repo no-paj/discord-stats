@@ -16,4 +16,10 @@ def index():
     snapshots_sorted = sorted(snapshots, key=lambda k: k['timestamp'])
     return template('index.tpl', online=snapshots_sorted)
 
+
+@route('/servers.html')
+def servers():
+    servers = [server for server in db.servers.find({}, {'_id': False})]
+    return template('servers.tpl', servers=servers)
+
 run(host='0.0.0.0', port=80)
