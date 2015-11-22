@@ -1,4 +1,4 @@
-% rebase('base.tpl')
+% rebase('base.tpl', title=None)
             <div class="row">
                 <h1>Welcome to Discord Stats !</h1>
                 <p class="lead">
