@@ -138,5 +138,4 @@
             %end
         </tbody>
     </table>
-    {{servers}}
 </div>
