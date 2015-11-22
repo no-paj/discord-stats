@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="006cb979-b349-488c-a634-63c5687e7d17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base.tpl" afterPath="$PROJECT_DIR$/base.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers.tpl" afterPath="$PROJECT_DIR$/servers.tpl" />
     </list>
     <ignored path="discord-stats.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servers.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="servers.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servers.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3975265">
+            <state vertical-scroll-proportion="-4.326923">
               <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4038463">
-              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.4434629">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -97,8 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.tpl" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/base.tpl" />
         <option value="$PROJECT_DIR$/servers.tpl" />
+        <option value="$PROJECT_DIR$/base.tpl" />
       </list>
     </option>
   </component>
@@ -460,6 +459,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="39.347828">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.326923">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -470,26 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="39.347828">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4038463">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servers.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3975265">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.4434629">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding />
         </state>
       </provider>
