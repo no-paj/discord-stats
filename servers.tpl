@@ -17,7 +17,7 @@
             <tr>
                 <th>Icon</th>
                 <th>Name</th>
-                <th class="filter-select filter-exact" data-placeholder="Pick a Region">Region</th>
+                <th>Region</th>
                 <th>Owner</th>
                 <th>Members</th>
                 <th>Online</th>
