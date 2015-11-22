@@ -13,7 +13,7 @@ def server_static(filename):
 @route('/')
 def index():
     snapshots = [snap for snap in db.snapshots.find({}, {'_id': False})]
-    snapshots = list(reversed(snapshots))
-    return template('index.tpl', online=snapshots)
+    snapshots_sorted = sorted(snapshots, key=lambda k: k['timestamp'])
+    return template('index.tpl', online=snapshots_sorted)
 
 run(host='0.0.0.0', port=80)
