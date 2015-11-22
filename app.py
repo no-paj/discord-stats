@@ -9,6 +9,10 @@ db = connection.bot
 def server_static(filename):
     return static_file(filename, root='static')
 
+@route('/fonts/<filename>')
+def server_static(filename):
+    return static_file(filename, root='fonts')
+
 
 @route('/')
 def index():
