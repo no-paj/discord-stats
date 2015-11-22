@@ -14,7 +14,7 @@
             <td><img src="{{server['icon']}}"/></td>
             <td>{{server['name']}}</td>
             <td>{{server['region']}}</td>
-            <td>{{server['owner']}}</td>
+            <td>{{server['owner_name']}}</td>
             <td>{{server['members']}}</td>
             <td>{{server['online']}}</td>
         </tr>
