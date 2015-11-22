@@ -1,25 +1,4 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="/static/bootstrap.min.css">
-        <title>
-            Discord Stats !
-        </title>
-    </head>
-
-    <body>
-
-        <nav class="navbar navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                <span class="sr-only">Toggle navigation</span>
-              </button>
-              <a class="navbar-brand" href="#">Discord Stats</a>
-            </div>
-          </div>
-        </nav>
-
-        <div class="container">
+% rebase('base.tpl')
             <div class="row">
                 <h1>Welcome to Discord Stats !</h1>
                 <p class="lead">
@@ -48,7 +27,6 @@
 
                 <div id="chartContainer3" style="height: 300px; width: 100%;"></div>
             </div>
-        </div>
 
         <script type="text/javascript">
                     window.onload = function () {
@@ -138,7 +116,4 @@
                 chart1.render();
                 chart3.render();
                 }
-                </script>
-
-    </body>
-</html>
+        </script>
