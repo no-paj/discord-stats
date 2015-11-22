@@ -4,6 +4,16 @@
         <title>
             {{title or 'Discord Stats !'}}
         </title>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <!-- tablesorter plugin -->
+        <script src="jquery.tablesorter.js"></script>
+        <!-- tablesorter widget file - loaded after the plugin -->
+        <script src="jquery.tablesorter.widgets.js"></script>
+
+        <!-- pager plugin -->
+        <link rel="stylesheet" href="jquery.tablesorter.pager.css">
+        <script src="jquery.tablesorter.pager.js"></script>
     </head>
 
     <body>
@@ -14,7 +24,7 @@
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
                 <span class="sr-only">Toggle navigation</span>
               </button>
-              <a class="navbar-brand" href="#">Discord Stats</a>
+              <a class="navbar-brand" href="/">Discord Stats</a>
             </div>
           </div>
         </nav>
@@ -24,4 +34,5 @@
         </div>
 
     </body>
+
 </html>
