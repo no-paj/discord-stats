@@ -23,7 +23,7 @@
             <div class="row">
                 <h1>Welcome to Discord Stats !</h1>
                 <p class="lead">
-                    Just a bunch of stats about an awesome a chat service
+                    Just a bunch of stats about an awesome chat service
                 </p>
             </div>
 
