@@ -44,14 +44,14 @@
                         },
                         plotOptions: {
                             spline: {
-                                lineWidth: 4,
+                                lineWidth: 3,
                                 states: {
                                     hover: {
-                                        lineWidth: 5
+                                        lineWidth: 4
                                     }
                                 },
                                 marker: {
-                                    enabled: false
+                                    enabled: true
                                 },
                             }
                         },
@@ -59,7 +59,7 @@
                             name: 'Online',
                             data: [
                                     %for item in online:
-                                        {x: new Date({{item['timestamp']}}*1000), y: {{item['servers']}}},
+                                        {x: new Date({{item['timestamp']}}*1000), y: {{item['online']}}},
                                     %end
                     ]
 
@@ -119,14 +119,14 @@
                         },
                         plotOptions: {
                             spline: {
-                                lineWidth: 4,
+                                lineWidth: 3,
                                 states: {
                                     hover: {
-                                        lineWidth: 5
+                                        lineWidth: 4
                                     }
                                 },
                                 marker: {
-                                    enabled: false
+                                    enabled: true
                                 },
                             }
                         },
