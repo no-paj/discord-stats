@@ -11,7 +11,7 @@
 
             <div class="row">
                 <h2>Online users</h2>
-                <div id"online">
+                <div id="online">
                 </div>
             </div>
 
@@ -86,13 +86,13 @@
 
            <div class="row">
                 <h2>Servers</h2>
-                <div id"servers">
+                <div id="servers">
                 </div>
             </div>
 
             <script>
                 $(function () {
-                    $('#online').highcharts({
+                    $('#servers').highcharts({
                         chart: {
                             type: 'spline'
                         },
